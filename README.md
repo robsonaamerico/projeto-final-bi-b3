@@ -10,7 +10,7 @@ Investidores e analistas de mercado frequentemente enfrentam dificuldades para c
 
 Este **Data App de Business Intelligence**, desenvolvido como Projeto Final do programa **SCTEC (Análise de Dados e Business Intelligence)**, resolve esse problema automatizando a captura de cotações históricas via API (`yfinance`), realizando o tratamento e a engenharia de atributos financeiros e disponibilizando um painel interativo em **Streamlit** para suporte à tomada de decisão baseada em dados.
 
-🔗 **Acesse a aplicação online (Deploy):** [https://b3-analytics-robson.streamlit.app/]
+🔗 **Acesse a aplicação online (Deploy):** https://b3-analytics-robson.streamlit.app/
 
 ---
 
@@ -68,7 +68,7 @@ O módulo `src/etl.py` extrai os últimos 2 anos de cotações diárias de 8 ati
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/robsonaamerico/projeto-final-bi-b3.git](https://github.com/robsonaamerico/projeto-final-bi-b3.git)
+git clone https://github.com/robsonaamerico/projeto-final-bi-b3.git
 cd projeto-final-bi-b3
 
 # 2. Crie e ative o ambiente virtual
