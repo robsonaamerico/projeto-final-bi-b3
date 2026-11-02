@@ -34,9 +34,18 @@ projeto-final-bi-b3/
 └── README.md                  # Documentação técnica e guia de execução
 ```
 
+## 📋 3.Gestão do Projeto e Metodologia Ágil (Kanban)
+
+O desenvolvimento deste projeto foi gerenciado utilizando a metodologia ágil **Kanban** através do Trello, estruturado nas quatro listas obrigatórias (*Backlog*, *A Fazer*, *Em Andamento* e *Concluído*) com controle de *Work In Progress (WIP)* limitado a uma tarefa por vez.
+
+* **Quadro Público no Trello:** [Projeto Final BI - Mercado de Capitais B3](https://trello.com/b/iyuEBAIf/projeto-final-bi-mercado-de-capitais-b3)
+
+### Registro do Fluxo de Trabalho (WIP)
+![Quadro Kanban no Trello](assets/trello_kanban.png)
+
 ---
 
-## ⚙️ 3. Pipeline de Dados (ETL) e Indicadores (KPIs)
+## ⚙️ 4. Pipeline de Dados (ETL) e Indicadores (KPIs)
 
 O módulo `src/etl.py` extrai os últimos 2 anos de cotações diárias de 8 ativos representativos de diferentes setores da B3 (`PETR4`, `VALE3`, `ITUB4`, `BBDC4`, `BBAS3`, `WEGE3`, `ABEV3`, `RENT3`) e calcula:
 
@@ -47,7 +56,7 @@ O módulo `src/etl.py` extrai os últimos 2 anos de cotações diárias de 8 ati
 
 ---
 
-## 📊 4. Funcionalidades do Dashboard (`app.py`)
+## 📊 5. Funcionalidades do Dashboard (`app.py`)
 
 * **Cache Inteligente (`@st.cache_data`):** Otimização de leitura para carregamento instantâneo nas interações do usuário.
 * **Filtros Globais Dinâmicos:** Seleção por Setor Econômico, Múltiplos Ativos (Tickers) e Recorte Temporal.
@@ -58,7 +67,7 @@ O módulo `src/etl.py` extrai os últimos 2 anos de cotações diárias de 8 ati
 
 ---
 
-## 🚀 5. Como Executar o Projeto Localmente
+## 🚀 6. Como Executar o Projeto Localmente
 
 ### Pré-requisitos
 * Python 3.10 ou superior instalado
@@ -90,7 +99,7 @@ streamlit run app.py
 
 ---
 
-## 🌿 6. Fluxo de Versionamento (GitFlow)
+## 🌿 7. Fluxo de Versionamento (GitFlow)
 
 O desenvolvimento respeitou a estrutura de branches exigida pela rubrica de avaliação:
 * `main`: Versão estável de produção conectada ao Streamlit Community Cloud.
