@@ -10,7 +10,7 @@ Investidores e analistas de mercado frequentemente enfrentam dificuldades para c
 
 Este **Data App de Business Intelligence**, desenvolvido como Projeto Final do programa **SCTEC (Análise de Dados e Business Intelligence)**, resolve esse problema automatizando a captura de cotações históricas via API (`yfinance`), realizando o tratamento e a engenharia de atributos financeiros e disponibilizando um painel interativo em **Streamlit** para suporte à tomada de decisão baseada em dados.
 
-🔗 **Acesse a aplicação online (Deploy):** [Insira aqui o link do seu app no Streamlit Community Cloud após o deploy]
+🔗 **Acesse a aplicação online (Deploy):** [https://b3-analytics-robson.streamlit.app/]
 
 ---
 
